@@ -1,2 +1,2 @@
 # Ferris-Wheel
-Learning CSS Animation by building a Ferris Wheel in www.freecodecamp.org
+Learning CSS animations by building a Ferris Wheel in www.freecodecamp.org
