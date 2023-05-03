@@ -1,26 +1,26 @@
 .wheel {
-  border: 2px solid black;
-  border-radius: 50%;
-  margin-left: 50px;
-  position: absolute;
-  height: 55vw;
   width: 55vw;
+  height: 55vw;
   max-width: 500px;
   max-height: 500px;
+  margin-left: 50px;
+  border-radius: 50%;
+  position: absolute;
   animation-name: wheel;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  border: 2px solid black;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .line {
-  background-color: black;
+  top: 50%;
+  left: 50%;
   width: 50%;
   height: 2px;
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform-origin: 0% 0%;
+  background-color: black;
 }
 
 .line:nth-of-type(2) {
